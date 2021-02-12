@@ -1,0 +1,176 @@
+
+/*-------------Mobile View-----------------------------*/
+
+@media (max-width: 449.98px)
+ { 
+    #div {
+        border-radius: 10px;
+        background-color: white;
+        height: 220px;
+        width: 325px;
+        position: absolute;
+        left: 10px;
+        top: 235px;
+        -webkit-box-shadow: 0 0 10px 5px rgb(153 141 141);
+        -moz-box-shadow: 0 0 10px 5px rgb(153, 141, 141);
+        box-shadow: 0 0 20px 7px rgb(153 141 141);
+    }
+
+        #input-form {
+            position: absolute;
+            top: 155px;
+            left: 40px;
+        }
+
+        /*page1----------------------------------*/
+        #carouselExampleControls {
+            height: 190px;
+            width: 340px;
+            position: absolute;
+            left: 12px;
+            top: 152px;
+            border-radius: 10px;
+            -webkit-box-shadow: 0 0 10px 5px rgb(153 141 141);
+            -moz-box-shadow: 0 0 10px 5px rgb(153, 141, 141);
+            box-shadow: 0 0 10px 5px rgb(153 141 141);
+        }
+
+        #welcome {
+            position: absolute;
+            top: 369px;
+            left: 8px;
+            color: #8b8b8b;
+            font-size: 20px;
+        }
+
+        .footer {
+            position: absolute;
+            top: 682px;
+            width: 100%;
+            height: 63px;
+            bottom: 0;
+            text-align: center;
+            color: white;
+        }
+
+        /*---page2----*/
+        #search_city {
+            width: 200px;
+        }
+        #marquee {
+            position: absolute;
+            top: 85%;
+            color: white;
+            width: 50;
+        }
+
+        /*--page3---*/
+        #image {
+            height: 120px;
+            width: 120px;
+            position: absolute;
+            left: 130px;
+            top: 25%;
+            border-radius: 300px;
+            -webkit-box-shadow: 0 0 5px 2px rgb(153 141 141);
+            -moz-box-shadow: 0 0 5px 2px rgb(153, 141, 141);
+            box-shadow: 0 0 5px 2px rgb(153 141 141);
+        }
+        #about {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            position: absolute;
+            top: 46%;
+            left: 2%;
+            color: #696f6b;
+        }    
+        
+#about,p
+{
+  text-align: justify;
+  font-size: small;
+  
+} 
+    
+ }
+
+/* Small devices (landscape phones, less than 768px)--*/
+@media (min-width: 450px) and (max-width: 900.98px)
+ {
+    #carouselExampleControls {
+        height: 208px;
+        width: 370px;
+        position: absolute;
+        left: 50px;
+        top: 152px;
+        border-radius: 10px;
+        -webkit-box-shadow: 0 0 10px 5px rgb(153 141 141);
+        -moz-box-shadow: 0 0 10px 5px rgb(153, 141, 141);
+        box-shadow: 0 0 10px 5px rgb(153 141 141);
+    }
+
+    #welcome {
+        position: absolute;
+        top: 369px;
+        left: 8px;
+        color: #8b8b8b;
+        font-size: 0px;
+    }
+
+    .footer {
+        position: absolute;
+        top: 682px;
+        width: 100%;
+        height: 63px;
+        bottom: 0;
+        text-align: center;
+        color: white;
+    }
+
+    /*---page2----*/
+    
+#div {
+    border-radius: 10px;
+    background-color: white;
+    height: 220px;
+    width: 366px;
+    position: absolute;
+    left: 50px;
+    top: 235px;
+    -webkit-box-shadow: 0 0 10px 5px rgb(153 141 141);
+    -moz-box-shadow: 0 0 10px 5px rgb(153, 141, 141);
+    box-shadow: 0 0 20px 7px rgb(153 141 141);
+}
+
+    #input-form {
+        position: absolute;
+        top: 155px;
+        left: 70px;
+    }
+    #search_city {
+        width: 242px;
+    }
+    #marquee {
+        position: absolute;
+        top: 76%;
+        color: white;
+        width: 50;
+    }
+
+    /*--page3---*/
+    #image {
+        height: 120px;
+        width: 120px;
+        position: absolute;
+        left: 170px;
+        top: 23%;
+        border-radius: 300px;
+        -webkit-box-shadow: 0 0 5px 2px rgb(153 141 141);
+        -moz-box-shadow: 0 0 5px 2px rgb(153, 141, 141);
+        box-shadow: 0 0 5px 2px rgb(153 141 141);
+    }  
+
+ }
+
+
+
+

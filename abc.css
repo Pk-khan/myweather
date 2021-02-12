@@ -1,0 +1,190 @@
+body
+{
+  color:rgb(39, 39, 37);
+  background-color: #f7f7f7e1;
+  background-image: url(sky.jpg);
+}
+
+#input-form
+{
+  position: absolute;
+  top: 170px;
+  left: 570px;
+}
+#search_city
+{
+  width: 300px;
+}
+/*------page1---------------------------*/
+#tag
+{
+  background-image: linear-gradient(to right top, #00b7fd, #00a2ff, #0089ff, #006dff, #5048f1);
+  color: white;
+}
+#Weather
+{
+color: white;
+}
+#aboutus
+{
+color: white;
+}
+
+#home
+{
+  color: white;
+}
+#home:hover
+{
+  color: rgb(8, 55, 66);
+
+}
+#Weather:hover
+{
+  color: rgb(8, 55, 66);
+
+}
+#aboutus:hover
+{
+  color: rgb(8, 55, 66);
+
+}
+
+
+#carouselExampleControls
+{
+  height: 280px;
+  width: 500px;
+
+  position: absolute;
+  left:900px;
+  top:200px;
+  border-radius:10px;
+  -webkit-box-shadow: 0 0 10px 5px rgb(153, 141, 141);
+    -moz-box-shadow: 0 0 10px 5px rgb(153, 141, 141);
+    box-shadow: 0 0 10px 5px rgb(153, 141, 141);
+
+}
+#carouselExampleControls,img
+{
+  border-radius: 10px;
+}
+#welcome
+{
+  position: absolute;
+  top:300px;
+  left: 100px;
+  color: #8b8b8b;
+  font-size: 38px;
+}
+.footer
+{  position: absolute;
+  top:682px;
+  width: 100%;
+  height: 40px;
+  bottom: 0;
+  text-align: center;
+  background-image: linear-gradient(to right top, #00b7fd, #00a2ff, #0089ff, #006dff, #5048f1);
+  color: white;
+}
+
+/*End of page1-----------------------*/
+
+
+/*--------page2----------------*/
+#div
+{ border-radius: 10px;
+  background-color: white;
+  height: 220px;
+  width: 400px;
+  position: absolute;
+  left: 550px;
+  top: 230px;
+  -webkit-box-shadow: 0 0 10px 5px rgb(153, 141, 141);
+    -moz-box-shadow: 0 0 10px 5px rgb(153, 141, 141);
+    box-shadow: 0  0 20px 7px rgb(153, 141, 141);
+}
+
+#time
+{
+  position: relative;
+  width:100%;
+  height: 15%;
+  border-radius: 0px;
+  text-align: center;
+  background-image: linear-gradient(to right top, #00b7fd, #00a2ff, #0089ff, #006dff, #5048f1);
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#city_name
+{
+  position: absolute;
+  top:30%;
+  left:10px;
+  font-family: 'Times New Roman', Times, serif;
+  
+}
+#temp
+{
+  position: absolute;
+  top:50%;
+  left: 10%;
+  font-size: 60px;
+  font-family: 'Times New Roman', Times, serif;
+  
+}
+#status
+{
+  position: absolute;
+  top:50%;
+  left:260px;
+  color:rgb(12, 175, 216);
+}
+
+#marquee
+{
+  position: absolute;
+  top:70%;
+  color: white;
+}
+/*------End of page2-----------------------*/
+
+/*-------page3-----------------------*/
+#about
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    top:25%;
+    left: 43%;
+    color: #696f6b;  
+}
+#about,h1
+{  
+  text-align: center;
+}
+#about,p
+{
+  text-align: justify;
+  font-size: large;
+  
+}
+#image
+{
+  height:400px;
+  width: 400px;
+  position: absolute;
+  left: 200px;
+  top:20%;
+  border-radius:300px;
+  -webkit-box-shadow: 0 0 5px 2px rgb(153, 141, 141);
+    -moz-box-shadow: 0 0 5px 2px rgb(153, 141, 141);
+    box-shadow: 0 0 5px 2px rgb(153, 141, 141);
+}
+/*--------End of page3--------------------------*/
+
+
+
+
+
+    
