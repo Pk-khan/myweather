@@ -24,7 +24,7 @@ app.get("/about",(req,res)=>
     res.render('about.hbs');     
 });
 app.listen(port,()=>
-console.log("connected...!")
+console.log("running on the port "+port)
 );
 
 
